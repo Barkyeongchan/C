@@ -259,7 +259,7 @@ int main(void)
 	printf("두개의 정수를 입력하시오 : ");               // a = 1, b = 0을 넣었을 때
 	scanf("%d%d", &x, &y);
 
-	printf("%d && %d의 결과값 : %d\n", x, y, x && y);    // 양쪽이 다 True여야함 = (참 and 거짓) = False = 0
+	printf("%d && %d의 결과값 : %d\n", x, y, x && y);    // 양쪽이 다 True여야함 = (참 and 거짓) = False = 0 
 	printf("%d || %d의 결과값 : %d\n", x, y, x || y);    // 양쪽 중 하나만 True여도 됌 = (참 or 거짓) = True = 1
 	printf("!%d의 결과값 : %d\n", x, !x);                // True가 아니다 = (not 참) = False = 0
 
@@ -298,6 +298,58 @@ int main(void)
 	printf("정수형 상수의 크기 : %d\n", sizeof(10));
 	printf("수식의 결과값의 크기 : %d\n", sizeof(1.5 + 3.4));
 	printf("char 자료형의 크기 : %d\n", sizeof(char));
+
+	return 0;
+}
+*/
+
+/*
+// 실수의 비교
+int main(void)
+{
+	int x = 1e32, y = 0.01;
+	printf("%d\n", fabs((x - y)) < 1e32);
+
+	return 0;
+}
+*/
+
+/*
+// 조건 연산자
+int main(void)
+{
+	int a = 10, b = 20, res;
+
+	res = (a > b) ? a : b;          // (조건식) ? (참) : (거짓)
+	printf("큰 값 : %d\n", res);
+
+	return 0;
+}
+*/
+
+/*
+// 비트 연산자와 연산 결과
+int main(void)
+{
+	int a = 10, b = 12;
+
+	printf("a & b : %d\n", a & b);     // 8
+	printf("a ^ b : %d\n", a ^ b);     // 6
+	printf("a | b : %d\n", a | b);     // 14
+	printf("~a : %d\n", ~a);           // -11
+	printf("a << 1 : %d\n", a << 1);   // 20
+	printf("a >> 2 : %d\n", b >> 2);   // 2
+
+	return 0;
+}
+*/
+
+/*
+int main(void)
+{
+	int a = -10;
+	printf("%d\n", a << 1);
+	printf("%d\n", a >> 1);
 
 	return 0;
 }
