@@ -59,11 +59,11 @@ int main(void)
 /*
 int main(viod)
 {
+    float ft = 1.234567890123456789;
 	double db = 1.234567890123456789;
 
 	printf("flaot형의 변수값 : %.20f\n", ft);
 	printf("double형의 변수값 : %.20lf\n", db);
-	float ft = 1.234567890123456789;
 
 	return 0;
 }
@@ -206,7 +206,7 @@ int main(void)
 */
 
 /*
-// 증감 연산자의 저누이 표기와 후위 표기
+// 증감 연산자의 전위 표기와 후위 표기
 int main(void)
 {
 	int a = 5, b = 5;
@@ -301,6 +301,4 @@ int main(void)
 
 	return 0;
 }
-/*
-Test
 */
