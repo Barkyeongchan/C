@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
+    <ClCompile Include="C_basic.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="C_control.c">
@@ -27,5 +27,22 @@
     <ClCompile Include="C_array.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="C_pointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C_struct.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sub.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="student.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
